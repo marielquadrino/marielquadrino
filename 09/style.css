@@ -1,0 +1,78 @@
+
+   
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+
+html, body {
+  color: palevioletred;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  height: 100%;
+  text-align: center;
+}
+
+body {
+  background: #000;
+}
+
+img {
+   height: auto;
+   max-width: 100%;
+}
+
+#message {
+  position: relative;
+}
+
+.disco {
+  top: 0;
+  left: 0;
+  height: auto;
+  max-width: 268px;
+  position: absolute;
+}
+
+.dance1{
+  animation: 
+}
+
+.square {
+  border-radius: 50px;
+  height: 10px;
+  position: absolute;
+  width: 10px;
+  background-color: white;
+}
+
+.phrase {
+  font-family: 'Architects Daughter', cursive;
+  position: absolute;
+}
+
+.animated {
+  -webkit-animation: colorchange 1s infinite;
+  animation: colorchange 1s infinite;
+}
+
+
+@keyframes colorchange
+{
+  0%   {background:blue;}
+  25%  {background: purple;}
+  50%  {background: pink;}
+  75%  {background: rgb(35, 180, 149);}
+  100% {background: red;}
+}
+
+@-webkit-keyframes colorchange
+{
+  0%   {background:blue;}
+  25%  {background: purple;}
+  50%  {background: pink;}
+  75%  {background: rgb(35, 180, 149);}
+  100% {background: red;}
+}
+   
+
+   
+   
+   <script src="scripts.js"></script> 
