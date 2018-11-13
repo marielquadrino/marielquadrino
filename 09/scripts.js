@@ -80,37 +80,28 @@
         // a for animated
         helpers.removeClass('animated');
         document.body.classList.add('animated');
+
+      } else if (keyCodePressed === 83) {
+        const ymca = document.createElement('audio');
+        ymca.className = 'ymca';
+        ymca.src = `ymca.mp3`;
+        ymca.autoplay = true;
+      
+        document.body.appendChild(ymca);
   
-      } else if (keyCodePressed === 80) {
-        const degreesRotation = Math.floor(Math.random() * 360);
+     
   
-        // p for prompt phrase
-        const phrase = document.createElement('h3');
-        phrase.className = 'phrase';
-        phrase.style.left = `${coordinates.x}px`;
-        phrase.style.top = `${coordinates.y}px`;
-        phrase.innerText = getPhrase();
-        phrase.style.color = helpers.generateRandomColorString(false);
-        phrase.style.transform = `rotate(${degreesRotation}deg)`;
-        document.body.appendChild(phrase);
+      
   
       } else if (keyCodePressed === 32) {
         // Space bar randomly changes background color of the body
         helpers.removeClass('animated');
         document.body.style.backgroundColor = helpers.generateRandomColorString();
       }
-  
-      counter++;
-      // always keeps the message on top of other elements
-      messageWrapper.style.zIndex = counter;
+
     }
   
-    const getPhrase = function () {
-      const exclamations = ['Wow!', 'Neat!', 'Incredible!', 'JavaScript rules!', 'Bravo!', 'Fantastic!'];
-      const index = Math.floor(Math.random() * exclamations.length);
-      return exclamations[index];
-    }
-  
+    
     setInterval(function () {
       messageWrapper.style.color = helpers.generateRandomColorString(false);
     }, 1000);
@@ -146,5 +137,4 @@
   
     }
   
-  }());
-  
+}());
