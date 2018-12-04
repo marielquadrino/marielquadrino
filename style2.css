@@ -1,0 +1,157 @@
+html, body {
+
+        background : (151, 108, 108);
+        color: pink;
+        font-family: 'helvetica', sans-serif;
+        font-size: 60px;
+        height: 100%;
+        text-align: center;
+    background-color: black;
+    }
+
+    p {
+
+    color: aliceblue;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    }
+   
+   
+    section{
+    display: flex;
+    align-content: center;
+justify-content: center;
+text-align: center;
+align-items: center;
+font-size: 80px;
+height: 100vh;
+opacity: 0;
+transition: opacity 4s ease;
+    }
+
+  #section-1{
+      font-size: 150px;
+    
+  }
+  section.active {
+opacity: 1;
+  }
+  #section-2{
+    background-color: rgb(161, 41, 41);
+      font-size: 80px;
+    height: 100vh;
+}
+
+#section-3{
+    background-color: rgb(88, 88, 206);
+    font-size: 80px;
+    height: 100vh;
+}
+
+#section-4{
+    background-color: rgb(116, 192, 116);
+    font-size: 80px;
+    height: 100vh;
+}
+
+#section-5{
+    background-color: rgb(92, 35, 92);
+    font-size: 80px;
+    height: 100vh;
+}
+
+#section-6{
+    background-color: rgb(27, 156, 150);
+    font-size: 80px;
+    height: 100vh;
+}
+#section-7{
+    background-color: black;
+    font-size: 80px;
+    height: 100vh;
+}
+    h1 {
+    color: aliceblue;
+   font-family: Helvetica, sans-serif;
+   font-size: 80px;
+ text-align: center;
+    }
+
+    h2{
+        color: aliceblue;
+        font-family: Helvetica, sans-serif;
+        font-size: 23px;
+        text-align: center;
+
+
+    }
+
+    h3{
+        color: aliceblue;
+        font-family: Helvetica, sans-serif;
+        font-size: 23px;
+        text-align: center;
+
+
+    }
+
+    h4{
+        color: aliceblue;
+        font-family: Helvetica, sans-serif;
+        font-size: 23px;
+        text-align: center;
+
+
+    }
+
+    h5{
+        color: aliceblue;
+
+        font-family: Helvetica, sans-serif;
+        font-size: 23px;
+        text-align: center;
+    }
+
+    h6{
+        color: aliceblue;
+        font-family: Helvetica, sans-serif;
+        font-size: 23px;
+        text-align: center;
+
+
+    }
+    .navigation__wrapper {
+        bottom: 0;
+        left: 0;
+       /* position: absolute;
+        */
+        right: 0;
+    }
+    .navigation__wrapper ul {
+        align-content: space-between;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="scripts.js"></script> 
