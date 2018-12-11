@@ -1,0 +1,56 @@
+html, body {
+
+        background: (151, 108, 108);
+        color: pink;
+        font-family: 'helvetica', sans-serif;
+        font-size: 30px;
+        height: 100%;
+        text-align: center;
+    }
+   
+
+    h1 {
+       padding: 2rem;
+    }
+    .emotion__wrapper {
+        align-items: center;
+        background: #fff;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+    }
+    .navigation__wrapper {
+        bottom: 0;
+        left: 0;
+       /* position: absolute;
+        */
+        right: 0;
+    }
+    .navigation__wrapper ul {
+        align-content: space-between;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="scripts.js"></script> 
